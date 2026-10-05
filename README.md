@@ -27,8 +27,8 @@ evaluado con Gini = 2·AUC − 1.
 | **Logística + 4 reglas de negocio, sin columnas ruidosas** | 0,268 | **0,247** |
 
 ## Cómo correrlo
-Los datos de la competencia **no están en el repo**. Copia `train.csv`, `test.csv` y
-`sample_submission.csv` en la raíz y luego:
+Los datos y la documentación de la competencia **no están en el repo**. Copia `train.csv`, `test.csv`,
+`sample_submission.csv`, `metaData.csv` y `DATASET_DESCRIPTION.md` en la raíz y luego:
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
